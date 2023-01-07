@@ -195,7 +195,7 @@ nav a:hover {
 /* Página de contato */
 
 form {
-    margin: 40px 0;
+    margin: 40px 10%;
 }
 
 form label, form legend {
@@ -209,6 +209,10 @@ form label, form legend {
     margin: 0 0 20px;
     padding: 10px 20px;
     width: 50%;
+}
+
+fieldset {
+    margin: 0 0 20px;
 }
 
 .checkbox {
@@ -234,7 +238,7 @@ form label, form legend {
 }
 
 table {
-    margin: 20px 0 40px;
+    margin: 20px 10%;
 }
 
 thead {
@@ -275,7 +279,7 @@ footer {
         position: static;
     }
 
-    .benefitsItems, .benefitsImg, .products {
+    .benefitsItems, .benefitsImg, .products, .sendButton {
         width: 100%;
     }
 
@@ -283,5 +287,13 @@ footer {
         display: block;
         margin-bottom: 10px;
         width: 97%;
+    }
+
+    form {
+        margin: 40px 5%;
+    }
+
+    .patternInput {
+        width: 85%;
     }
 }
